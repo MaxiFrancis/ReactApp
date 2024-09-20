@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:"Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21222A;
+  height: 90px;
+  padding: 30 px 25px;
+}
+
+.nav--logo_text, .nav--title {
+  margin: 0;
+}
+
+
+.nav--icon {
+  width: 30px;
+  margin-right: 7px;
+}
+
+.nav--logo_text {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+.main--facts{
+margin-top: 46px;
+max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main-title{
+ margin: 0;
+ font-size: 39px;
+letter-spacing: -0.05em;
+}
+
+.main--facts > li ::marker {
+  color:#61DAFB;
+  font-size: 1.4rem;
+  
+}
+
+.main--bg_img {
+  width: 300px;
+}
+
+main{
+  padding: 57px 27px;
+  color: white;
+  background-image: url('https://th.bing.com/th/id/R.f81a6f373c244b1f70f4b7402b5ab372?rik=rbXh4ieLuKt%2bmA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fReact_logo_logotype_emblem.png&ehk=QhGOkKcUKCU7FBQgHOajOiJqJBACUTD2Ni6LsfqzCEA%3d&risl=&pid=ImgRaw&r=0');
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: 190% 75%;
+  filter: grayscale();
+}
+
+body {
+  background-color: #282D35;
+}
